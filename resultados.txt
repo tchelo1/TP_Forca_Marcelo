@@ -1,0 +1,7 @@
+Jogador: marcelo | Palavra: mesa | Resultado: Venceu
+Jogador: marcelo | Palavra: chaleira | Resultado: Venceu
+Jogador: edna | Palavra: mesa | Resultado: Perdeu
+Jogador: tchelo | Palavra: faca | Resultado: Venceu
+Jogador: carlos | Palavra: colher | Resultado: Venceu
+Jogador: jiordano | Palavra: chaleira | Resultado: Perdeu
+Jogador: marcelo | Palavra: abajur | Resultado: Perdeu
