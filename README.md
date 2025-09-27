@@ -1,30 +1,44 @@
-Jogo da Forca - Versão Básica
+🎮 Hangman Game – Basic Version
 
-Este é um trabalho simples de programação em C, feito para a disciplina  programação e desenvolvimento de softaware.
+This is a simple C programming project: a classic Hangman game designed to demonstrate logic, file handling, and structured programming.
 
-O jogo funciona assim:
-- Você escolhe jogar e digita seu nome.
-- O programa escolhe uma palavra aleatória para você adivinhar.
-- Você tenta acertar as letras da palavra, uma por vez.
-- Você pode errar até 6 vezes antes de perder.
-- O jogo mostra um bonequinho da forca que vai sendo desenhado conforme você erra.
-- No final, o resultado (se ganhou ou perdeu) é salvo num arquivo para você poder ver depois.
+🕹️ How it Works
 
-Arquivos usados:
-- palavras.txt: lista com várias palavras para o jogo escolher.
-- resultados.txt: arquivo onde ficam salvos os resultados das partidas.
+The player starts the game by entering their name.
 
-Como rodar:
-1. Compile os arquivos com o gcc:
-   gcc main.c forca.c -o forca
-2. Rode o programa:
-   ./forca
+The program randomly selects a word to guess.
 
-Observações:
-- Se quiser adicionar mais palavras, é só colocar no arquivo palavras.txt, uma palavra por linha.
-- O programa lê as palavras do arquivo e escolhe uma delas aleatoriamente.
-- Se não encontrar o arquivo palavras.txt, ele usa uma palavra padrão para o jogo funcionar.
+You try to guess the letters, one at a time.
 
-É isso! Divirta-se jogando e espero que gostem do trabalho!
+You can make up to 6 mistakes before losing.
 
-Feito por: Marcelo Rodrigues Viegas d'Abreu
+With each wrong guess, a stick figure is drawn step by step.
+
+At the end, the result (win or lose) is saved in a file for later reference.
+
+📂 Files Used
+
+palavras.txt → contains the word list for the game.
+
+resultados.txt → stores the results of past matches.
+
+⚙️ How to Compile and Run
+
+Compile the files with GCC:
+
+gcc main.c forca.c -o forca
+
+
+Run the program:
+
+./forca
+
+📝 Notes
+
+You can add more words by editing palavras.txt (one word per line).
+
+If the program doesn’t find palavras.txt, it will use a default word so the game still works.
+
+👨‍💻 Author
+
+Developed by Marcelo Rodrigues Viegas d'Abreu
